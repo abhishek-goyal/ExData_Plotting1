@@ -3,4 +3,4 @@ consumption <- read.table("household_power_consumption.txt", skip = 66637, nrow 
                   col.names = colnames(read.table("household_power_consumption.txt",
                                                   nrow = 1, header = TRUE, sep=";")))
 
-hist(consumption$Global_active, col = "red", xlab = "Global Active Power (kilowatts)")
+hist(consumption$Global_active, col = "red", xlab = "Global Active Power (kilowatts)", main = "Global Active Power")
